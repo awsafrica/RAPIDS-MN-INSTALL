@@ -8,7 +8,7 @@ First, you need to make a transaction collateral of exactly 10000000 (10Million)
 * Start the Rapids wallet and wait for it to complete the blockchain synchronisation.
 * Open Menu → **Receiving addresses**... and create a new address with label MN1 (or any one you like). Copy this address to the clipboard.
 * Send exactly 10000000 (10Million) RPD coins in a single transaction to the account address you generated in the previous step. This may be sent from another wallet, or from funds already held in your current wallet.
-* Wait for at least 1 transaction confirmation.
+* Wait for at least 16 transaction confirmation.
 * Go to Help/Tools → **Debug console** and type the following command: masternode outputs
 * This command should print a collateral transaction hash and index, usually 0 or 1.
 * Keep this info at hand and proceed to the remote VPS setup.
@@ -38,7 +38,7 @@ First you should edit a masternode configuration file which is located in the co
 * Step 1 - Replace your-tx-hash and your-tx-index with the data from masternode outputs command you got earlier.
 * Step 2 - Close editor and save the file.
 * Step 3 - Close and restart your wallet.
-* Step 4 - After restart ensure you have **at least 15 confirmations** of your collateral transaction. If you have less - please wait, or your masternode will not start.
+* Step 4 - After restart ensure you have **at least 16 confirmations** of your collateral transaction. If you have less - please wait, or your masternode will not start.
 * Step 5 - If you have the Masternodes tab - switch to it. If not, open wallet preferences and enable Masternodes tab from there.
 * Step 6 - Click Start All button to start your masternode.
 
