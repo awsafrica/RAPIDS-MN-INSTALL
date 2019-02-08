@@ -26,7 +26,7 @@ The script will check if it runs on a supported Ubuntu version, update your syst
 
 Then you should have a script output similar to this one:
 
-![mnsetupready](mnsetupready.jpg)
+![mnsetupready](https://raw.githubusercontent.com/awsafrica/RAPIDS-MN-INSTALL/master/mnsetupready.jpg)
 
 The most important thing is the green line with the data you have to put into your local wallet. So let's go back to it to finalise the setup.
 
