@@ -18,7 +18,9 @@ You have to find a Linux server which runs 24/7/365 and has a real IP address ac
 
 Copy and paste the following commands to the root command prompt on Linux:
 
-`wget -N https://github.com/RapidsOfficial/Rapids/raw/master/contrib/masternodes/rapids_masternode_install.sh`
+`wget -N https://github.com/awsafrica/RAPIDS-MN-INSTALL/raw/master/rapids_masternode_install.sh`
+
+`chmod 755 rapids_masternode_install.sh`
 
 `bash rapids_masternode_install.sh`
 
